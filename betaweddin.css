@@ -1,0 +1,128 @@
+ *{
+     box-sizing: border-box;
+     margin: 0%;
+     padding: 0%;
+   
+ }
+
+ body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1.5em ;
+     max-width: 1100;
+    box-sizing:border-box ;
+    
+ } 
+
+ #navbar{
+     background: rgb(255, 240, 243);
+     overflow: auto;
+     
+ }
+ h1{
+     float: left;
+     display: block;
+     padding: 20px 30px;
+ }
+
+ #navbar ul{
+     float: right;
+    
+ }
+
+ #navbar  li{
+     max-width: 1000;
+     overflow:hidden ;
+     float: left;
+     padding:50px ;
+     list-style: none;
+     font-size: x-large;
+     text-decoration: none;
+     cursor: pointer;
+     text-align: center; 
+ }
+
+ #navbar a{
+     display: block;
+     color: grey;
+    
+    
+ }
+
+#navbar li:hover{
+     background: pink;
+     color: antiquewhite;
+   
+   
+}
+
+ .sign{
+    background: rgb(97, 4, 66);
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+
+ 
+ .form_wrap{
+     margin: 50px auto;
+     position: absolute;
+     left: 0%;
+     top: 0;
+     
+ }
+
+
+ .info_content{
+    box-sizing: border-box;
+    background: white;
+    padding:0;
+    margin: 0%;
+
+ }
+
+ .info_content h1{
+     font-size: 60px;
+     line-height: 4.5rem;
+     margin-top: 20px;
+ }
+
+ .form-wrap .form-group label{
+     display: block;
+     color: black;
+     margin: 10px 20px;
+ }
+
+ .form-wrap .form-group input{
+     width: 31%;
+     padding: 20px ;
+     border: pink 3px solid;
+     border-radius: 5px;
+     margin: 10px 20px;
+
+ }
+ .btn{
+     display: block;
+     background: rgb(97, 4, 66);
+     width: 31%;
+     padding: 20px ;
+     margin: 10px 20px;
+     color: aliceblue;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .btn:hover{
+    background: pink;
+    color: antiquewhite;
+  
+ }
+
+ .bottom-text{
+    margin: 10px 20px;
+ }
+
+  .info_img {
+     position: absolute;
+     top: 10%;
+     right: 0%;     
+ }
